@@ -1,0 +1,23 @@
+{
+  "author": "xukai12",
+  "description": "",
+  "files": [
+    "util/*"
+  ],
+  "module": "*",
+  "keywords": [],
+  "license": "ISC",
+  "name": "lib-webpack",
+  "version": "0.0.0",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "@types/react": "^18.0.22",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "react": "^18.2.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  }
+}

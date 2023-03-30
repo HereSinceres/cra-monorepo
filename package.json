@@ -7,6 +7,8 @@
     "packages/*"
   ],
   "scripts": {
+    "install-pkg": "npm install",
+    "clean": "npm exec --workspaces -- npx rimraf node_modules && npx rimraf node_modules",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
